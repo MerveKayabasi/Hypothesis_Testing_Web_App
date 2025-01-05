@@ -5,6 +5,11 @@ from scipy import stats
 from scipy.stats import chi2_contingency, friedmanchisquare
 from statsmodels.stats.contingency_tables import mcnemar
 
+# Sidebar header and logo
+st.sidebar.image("tedu_logo.png", use_container_width=True) 
+st.sidebar.title("ADS 511: Statistical Inference Methods")
+st.sidebar.write("Developed by: Merve Kayabasi")
+
 st.title('Hypothesis Testing and Statistical Analysis Application')
 st.write('This application allows you to perform hypothesis testing and various statistical analyses on the uploaded dataset or manual input.')
 
