@@ -209,10 +209,9 @@ if 'df' in st.session_state and 'data_type' in st.session_state:
             stat, p_value, _, _ = chi2_contingency(contingency_table)
         elif test_name == "McNemar Test":
              contingency_table = pd.crosstab(data.iloc[:, 0], data.iloc[:, 1])
-             result = mcnemar(contingency_table)
+             result = mcnemar(contingency_table, exact=True)
              stat = result.statistic
              p_value = result.pvalue
-            
 
         elif test_name == "Cochran's Q Test":
             contingency_table = pd.crosstab(data.iloc[:, 0], data.iloc[:, 1])
