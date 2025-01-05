@@ -11,7 +11,7 @@ st.sidebar.title("ADS 511: Statistical Inference Methods")
 st.sidebar.write("Developed by: Merve Kayabasi")
 
 st.sidebar.title("Hypothesis Testing Road Map")
-st.sidebar.image("Mind map(1).png",use_container_width=True)
+st.sidebar.image("Mind map (1).jpeg",use_container_width=True)
 
 st.title('Hypothesis Testing and Statistical Analysis Application')
 st.write('This application allows you to perform hypothesis testing and various statistical analyses on the uploaded dataset or manual input.')
